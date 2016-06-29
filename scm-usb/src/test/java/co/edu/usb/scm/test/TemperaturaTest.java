@@ -12,7 +12,7 @@ public class TemperaturaTest {
 	@Test
 	public void testFahrenheitCelsius() {
 		Temperatura t = new TemperaturaImpl();
-		assertTrue(t.FahrenheitCelsius(4)< 10);
+		assertTrue(t.FahrenheitCelsius(4) == 10);
 		
 	}
 
