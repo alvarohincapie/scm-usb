@@ -9,13 +9,13 @@ import co.edu.usb.scm.TemperaturaImpl;
 
 public class TemperaturaTest {
 
-	@Test
+	/*@Test
 	public void testFahrenheitCelsius() {
 		Temperatura t = new TemperaturaImpl();
 		System.out.println(t.FahrenheitCelsius(4));
 		assertTrue(t.FahrenheitCelsius(4) >= 10);
 		
-	}
+	}*/
 
 	@Test
 	public void testCelsiusFahrenheit() {
@@ -25,3 +25,4 @@ public class TemperaturaTest {
 	}
 
 }
+
